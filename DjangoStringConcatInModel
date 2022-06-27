@@ -1,0 +1,5 @@
+
+    def __str__(self):
+        if len(self.title) > 50:
+            return self.title[:50]+"..."
+        return self.title
